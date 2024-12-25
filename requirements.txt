@@ -1,9 +1,19 @@
-diffusers==0.25.0
-transformers==4.41.0
-accelerate==0.26.0
-torch==2.2.0
-gradio==4.12.0
-python-telegram-bot==20.8
-xformers==0.0.22
-safetensors==0.4.2
-pillow==10.2.0
+# Core AI Libraries
+torch==2.2.0          # PyTorch for AI computations
+xformers==0.0.22      # Optimized memory usage for PyTorch models
+diffusers==0.25.0     # Stable Diffusion image generation library
+transformers==4.41.0  # Hugging Face Transformers for model utilities
+accelerate==0.26.0    # Performance optimization for AI models
+safetensors==0.4.2    # Safe and efficient tensor storage
+
+# Web Interface
+gradio==4.12.0        # Web UI for interacting with AI models
+
+# Telegram Bot Integration
+python-telegram-bot==20.8  # Telegram bot API library
+
+# Image Processing
+pillow==10.2.0        # Image processing and manipulation library
+
+# Miscellaneous
+setuptools>=65.5.1    # Ensures compatibility during package installations
